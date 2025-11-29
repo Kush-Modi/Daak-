@@ -31,11 +31,20 @@ export function Hero() {
                 </p>
 
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
-                    <Button size="lg" className="w-full sm:w-auto gap-2 bg-mustard text-cafe-900 hover:bg-yellow-500 border-none">
+                    <Button
+                        size="lg"
+                        className="w-full sm:w-auto gap-2 bg-mustard text-cafe-900 hover:bg-yellow-500 border-none"
+                        onClick={() => window.location.href = 'tel:+919863636301'}
+                    >
                         <Phone className="w-5 h-5" />
                         Call & Reserve
                     </Button>
-                    <Button variant="outline" size="lg" className="w-full sm:w-auto gap-2 border-cafe-100 text-cafe-100 hover:bg-cafe-50 hover:text-cafe-900">
+                    <Button
+                        variant="outline"
+                        size="lg"
+                        className="w-full sm:w-auto gap-2 border-cafe-100 text-cafe-100 hover:bg-cafe-50 hover:text-cafe-900"
+                        onClick={() => window.open('https://www.zomato.com/hyderabad/daak-coffee-house-jubilee-hills', '_blank')}
+                    >
                         <UtensilsCrossed className="w-5 h-5" />
                         Check Out Menu
                     </Button>
