@@ -24,7 +24,7 @@ export default {
         mustard: '#e3b341', // Muted mustard for Daak
       },
       fontFamily: {
-        sans: ['Inter', 'sans-serif'],
+        sans: ['Outfit', 'sans-serif'],
         serif: ['Playfair Display', 'serif'], // Good for headers
       },
     },
